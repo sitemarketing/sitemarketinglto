@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+/* Conteúdo Principal */
+.content {
+    padding: 20px;
+    color: #333;
+}
+
+/* Navegação */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #00A8FF;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Seção de Texto Chamativo */
+.highlight {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #00A8FF, #007bb5);
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlight h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.highlight p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.highlight p strong {
+    font-weight: 700;
+}
+
